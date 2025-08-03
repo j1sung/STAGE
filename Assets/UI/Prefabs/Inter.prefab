@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8383624002349421020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1428618566286488724}
+  - component: {fileID: 7137210440272817560}
+  m_Layer: 0
+  m_Name: Inter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1428618566286488724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383624002349421020}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.89, y: 0.31999996, z: -4.43}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7137210440272817560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383624002349421020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf82958fde60a5747b66226ee20f36a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 0}
+  panel: {fileID: 0}
+  startQuestions:
+  - "\uC9C0\uC6D0 \uB3D9\uAE30"
+  - "\uC790\uAE30 \uC18C\uAC1C"
+  mainQuestions:
+  - "\uC2E4\uD328 \uACBD\uD5D8\uACFC \uADF9\uBCF5 \uBC29\uBC95"
+  - "5\uB144 \uD6C4\uC758 \uBAA9\uD45C"
+  - "\uCD5C\uADFC \uC6B0\uB9AC \uD68C\uC0AC\uC758 \uC774\uC288\uB294"
+  - "\uD300 \uD504\uB85C\uC81D\uD2B8\uC5D0\uC11C \uB9E1\uC740 \uC5ED\uD560\uACFC
+    \uAE30\uC5EC\uD55C \uBC14"
+  endQuestions:
+  - "\uB9C8\uC9C0\uB9C9\uC73C\uB85C \uD558\uACE0 \uC2F6\uC740 \uB9D0"
+  - "\uC785\uC0AC \uD6C4 \uD3EC\uBD80"
