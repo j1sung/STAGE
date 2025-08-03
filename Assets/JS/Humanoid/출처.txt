@@ -1,0 +1,7 @@
+[3D Modeling]
+- Unity Assets Store
+(https://assetstore.unity.com/packages/3d/animations/free-download-humanoid-idle-motion-281422)
+- License agreement: Standard Unity Asset Store EULA
+
+[Animation]
+- Mixamo
